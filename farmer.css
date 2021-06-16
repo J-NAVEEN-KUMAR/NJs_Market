@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #F4F5ED; */
+    /* background: url('background1.jpg') top left repeat; */
+    /* background-color: #81b29a; */
+    background-color: #5a716a;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 14px;
+    color:#ffff;
+    line-height: 1.5;
+}
+
+#logo{
+    display: block;
+    width:200px;
+    margin: 20px auto;
+}
+#container{
+    width:1000px;
+    /* height: 400px; */
+    margin:70px auto;
+    /* background-color: #0C3B2E; */
+    /* background-color: #B40B56; */
+    background-color: #3d405b;
+    position: relative;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+#main-content{
+    /* background-color: #B46617; */
+    padding: 10px;
+    margin: 10px;
+    width:600px;
+    float: left;
+    /* font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: black;
+    /* font-size: 2rem; */
+        
+}
+
+#special-offer{
+    /* background-color: #aad4c8; */
+    background-color: #0f6c7a;
+    padding: 30px 10px;
+    margin: 38px 0px 0px 0;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+    /* color:#000; */
+    color: #f4f1de;
+    position: relative;
+    border-radius: 10px
+}
+#sidebar{
+    /* background-color: #000; */
+    background-color: #152D5A;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    /* color:#aad4c8; */
+    color: #f4f1de;
+    margin: 10px;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+    border-radius: 10px;
+}
+span{
+    /* font-size: large; */
+    /* font-style: italic; */
+    color:#94d2bd;
+}
+#widget ul{
+    margin:10px;
+    padding: 5px 5px 0px 5px;
+}
+#title{
+    width:800px;
+    margin: 30px auto;
+    text-align: center;
+    /* display: block; */
+    font-size: 40px;
+    /* color: #6247aa; */
+    /* color: #2e4600; */
+    color: #1a3b1d;
+    /* color: #0b6e4f; */
+    line-height: 0.8;
+    
+}
+
+
+
+
+
+
+
+#container::after{
+    content:" ";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+#sidebar h3{
+    background-color:#0f6c7a;
+    /* color:white; */
+    /* color: #FFCEBB; */
+    color: #e07a5f;
+    margin-left: -20px;
+    padding-left: 15px;
+    border-radius: 10px 0;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3{
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+}
+#special-offer h3{
+    position:absolute;
+    margin: -40px 0px -0px -20px;
+    /* background-color:#0f6c7a; */
+    /* background-color: #4D183F; */
+    /* background-color: #BD5148; */
+    /* background-color: #323232; */
+    background-color: #283618;
+    display: inline;
+    /* color:#CEB56D; */
+    color: #e07a5f;
+    padding: 5px;
+    border-radius: 10px 0;
+    font-size: 0.9em;
+}
+#container h1{
+    color: #e07a5f;
+    font-family: 'Dancing Script', cursive;
+    
+    
+}
